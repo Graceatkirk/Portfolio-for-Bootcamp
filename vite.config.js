@@ -9,7 +9,7 @@ export default defineConfig({
     open: true, // Automatically open the app in the browser on start
   },
   build: {
-    outDir: 'build', // Output directory for the production build
+    dist: 'build', // Output directory for the production build
     sourcemap: false, // Optional: Disable source maps in production
     minify: 'esbuild', // Minify the build files for production
   },

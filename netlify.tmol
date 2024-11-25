@@ -1,0 +1,6 @@
+[build]
+  publish = "dist"  # This is where your built site files are output
+  command = "npm run build"  # Build command to run
+
+[build.environment]
+  NODE_ENV = "production"
