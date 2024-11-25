@@ -40,7 +40,7 @@ To set up this project locally, follow these steps:
 
 bash
 Copy code
-git clone https://github.com/Graceatkirk/portfolio.git
+git clone https://github.com/Graceatkirk/Portfolio-for-Bootcamp.git
 
 2. Navigate into the project directory:
 
