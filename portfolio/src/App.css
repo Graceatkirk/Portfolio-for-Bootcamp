@@ -1,4 +1,4 @@
-/* Reset margins and paddings for the whole page */
+
 *,
 *::before,
 *::after {
@@ -7,110 +7,110 @@
   box-sizing: border-box;
 }
 
-/* Ensure the body takes up the full width of the screen */
+
 html,
 body {
   width: 100%;
   height: 100%;
-  font-family: Arial, sans-serif; /* Optional: Use a font that fits your design */
+  font-family: Arial, sans-serif; 
 }
 
-/* Root element (the React container) should fill the entire page */
+
 #root {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
+  flex-direction: column; 
 }
 
-/* Optional: Give some space between sections */
+
 section {
   padding: 40px 20px;
 }
 
 
 img {
-  border-radius: 50%; /* Makes it a circle */
-  width: 150px; /* Adjust size */
-  height: 150px; /* Keep it square */
-  object-fit: cover; /* Ensures it looks good */
-  border: 2px solid #333; /* Optional border for styling */
+  border-radius: 50%; 
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover; 
+  border: 2px solid #333; 
 }
 
 
-/* Header container */
+
 .header {
-  background-color: #333; /* Dark background */
-  color: white; /* White text */
+  background-color: #333; 
+  color: white; 
   padding: 16px;
-  text-align: center; /* Center the title */
-  position: sticky; /* Sticky header stays at the top */
-  top: 0; /* Stick to the top of the viewport */
-  z-index: 1000; /* Ensure it's above other elements */
-  width: 100%; /* Stretch across the full browser width */
+  text-align: center; 
+  position: sticky; 
+  top: 0; 
+  z-index: 1000; 
+  width: 100%; 
 }
 
-/* Header title */
+
 .header-title {
   font-size: 2rem;
   font-weight: bold;
   margin: 0;
 }
 
-/* Navigation container */
+
 nav {
-  background-color: #007BFF; /* Add distinct background for navigation bar */
+  background-color: #007BFF; 
   display: flex;
-  justify-content: center; /* Center-align navigation links */
+  justify-content: center; 
   align-items: center;
-  padding: 10px 0; /* Add some padding for better spacing */
-  width: 100%; /* Stretch across the browser width */
+  padding: 10px 0; 
+  width: 100%; 
 }
 
-/* Navigation list */
+
 nav ul {
-  list-style: none; /* Remove default bullet points */
-  display: flex; /* Arrange items in a row */
-  gap: 20px; /* Spacing between list items */
+  list-style: none; 
+  display: flex; 
+  gap: 20px; 
   padding: 0;
   margin: 0;
 }
 
-/* Individual navigation items */
+
 nav li {
   margin: 0;
 }
 
-/* Link styles */
+
 nav a {
-  text-decoration: none; /* Remove underline */
-  color: white; /* Default link color */
+  text-decoration: none; 
+  color: white; 
   font-size: 1.1rem;
   font-weight: 500;
   padding: 8px 12px;
-  border-radius: 4px; /* Rounded corners */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  border-radius: 4px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-/* Active link styling */
+
 nav a.active {
-  background-color: #0056b3; /* Highlight for active link */
+  background-color: #0056b3; 
   color: white;
 }
 
-/* Hover effect */
+
 nav a:hover {
-  background-color: #555; /* Slightly lighter hover background */
-  color: #ddd; /* Light hover text color */
+  background-color: #555; 
+  color: #ddd; 
 }
 
 /* About Me Page */
 .about-me {
   width: 100%;
-  max-width: 1200px; /* Optional: Max width for large screens */
-  margin: 0 auto; /* Center content */
+  max-width: 1200px; 
+  margin: 0 auto; 
   padding: 40px;
-  background-color: #333; /* Light background color */
+  background-color: #333; 
 }
 
 .about-me h2 {
@@ -124,30 +124,30 @@ nav a:hover {
 }
 
 
-/* Portfolio Section */
+/* Portfolio Page */
 .portfolio-section {
   padding: 40px 20px;
-  background-color: #292929; /* Lighter grey background */
+  background-color: #292929; 
   text-align: center;
 }
 
 .portfolio-section h2 {
   font-size: 2rem;
-  color: #ffffff; /* Dark grey text */
+  color: #ffffff; 
   margin-bottom: 20px;
 }
 
 .projects-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
   gap: 20px;
   padding: 0;
   margin: 0;
 }
 
-/* Individual Project */
+
 .project {
-  background-color: #ffffff; /* Medium grey for project cards */
+  background-color: #ffffff; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -156,44 +156,44 @@ nav a:hover {
 
 .project h3 {
   font-size: 1.5rem;
-  color: #333; /* Dark grey for project titles */
+  color: #333; 
   margin-bottom: 10px;
 }
 
-/* Links */
+
 .project a {
-  color: #007BFF; /* Keep blue color for links */
+  color: #007BFF; 
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .project a:hover {
-  color: #0056b3; /* Darker blue on hover */
+  color: #0056b3; 
 }
 
 
-
+/* Contact Page */
 .contact-section {
-  background-color: #333; /* Light background for distinction */
+  background-color: #333; 
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   max-width: 600px;
-  margin: 0 auto; /* Center the section */
-  text-align: center; /* Center text */
+  margin: 0 auto; 
+  text-align: center; 
 }
 
 .contact-section h2 {
   font-size: 1.8rem;
   margin-bottom: 16px;
-  color: #ffffff; /* Dark text for contrast */
+  color: #ffffff; 
 }
 
 .contact-section p {
   margin-bottom: 20px;
   font-size: 1.1rem;
-  color: #ffffff; /* Subtle text color */
+  color: #ffffff; 
 }
 
 .contact-section ul {
@@ -208,16 +208,16 @@ nav a:hover {
 }
 
 .contact-section a {
-  color: #007BFF; /* Link color */
+  color: #007BFF; 
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .contact-section a:hover {
-  color: #0056b3; /* Darker link color on hover */
+  color: #0056b3; 
 }
 
-/* CSS */
+/* Resume Page */
 .resume-preview {
   margin-top: 20px;
   padding: 10px;
@@ -233,37 +233,37 @@ nav a:hover {
 }
 
 
-/* Footer container styling */
+
 footer {
   display: flex;
-  justify-content: center; /* Center align the links */
-  gap: 20px; /* Space between links */
+  justify-content: center; 
+  gap: 20px; 
   padding: 20px;
-  background-color: #333; /* Dark footer background */
+  background-color: #333; 
   color: white;
   font-size: 1rem;
 }
 
-/* Footer link styles */
+
 footer a {
-  text-decoration: none; /* Remove underline */
-  color: white; /* Default link color */
+  text-decoration: none; 
+  color: white; 
   padding: 8px 12px;
-  border-radius: 4px; /* Rounded edges */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  border-radius: 4px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-/* Hover effect for links */
+
 footer a:hover {
-  background-color: #007BFF; /* Highlight background */
-  color: #fff; /* Text color stays white */
+  background-color: #007BFF; 
+  color: #fff; 
 }
 
-/* Responsive footer spacing */
+
 @media (max-width: 768px) {
   footer {
-    flex-direction: column; /* Stack links vertically on smaller screens */
-    align-items: center; /* Center the links */
+    flex-direction: column; 
+    align-items: center; 
     gap: 10px;
   }
 }

@@ -17,7 +17,7 @@ const Portfolio = () => (
         title="README-Generator"
         repoLink="https://github.com/Graceatkirk/Readme-Generator"
       />
-      {/* Add more Project components as needed */}
+      {/* Add more Project's when I have em */}
     </div>
   </section>
 );

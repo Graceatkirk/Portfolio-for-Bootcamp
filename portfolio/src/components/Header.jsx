@@ -1,5 +1,5 @@
 import Navigation from './Navigation';
-import '../App.css'; // Assuming you'll create a separate CSS file for header-specific styles
+import '../App.css'; 
 
 const Header = () => (
   <header className="header">
