@@ -127,7 +127,7 @@ nav a:hover {
 /* Portfolio Section */
 .portfolio-section {
   padding: 40px 20px;
-  background-color: #333; /* Lighter grey background */
+  background-color: #292929; /* Lighter grey background */
   text-align: center;
 }
 
@@ -147,7 +147,7 @@ nav a:hover {
 
 /* Individual Project */
 .project {
-  background-color: #b8b8b8; /* Medium grey for project cards */
+  background-color: #ffffff; /* Medium grey for project cards */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
